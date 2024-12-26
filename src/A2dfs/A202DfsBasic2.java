@@ -6,6 +6,7 @@ public class A202DfsBasic2 {
         static List<List<Integer>> adjList;
         static List<List<Integer>> answer;
         public static void main(String[] args) {
+            //      단방향 간선, dfs순서로 바닥까지 찍었을 경우 그 자취 출력 밑에 정답.
             int[][] arr = {{1, 2}, {1, 3}, {2, 4}, {2, 5}, {3, 6}, {3,7}, {4,8}, {4,9}, {5,10}};
             adjList = new ArrayList<>();
             for(int i=0; i<11; i++){
