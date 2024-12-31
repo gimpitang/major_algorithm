@@ -6,10 +6,10 @@ import java.util.Queue;
 public class A305게임맵 {
     public static void main(String[] args) {
         int[][] maps = {{1,0,1,1,1},
-                {1,0,1,0,1},
-                {1,0,1,1,1},
-                {1,1,1,0,1},
-                {0,0,0,0,1}};
+                        {1,0,1,0,1},
+                        {1,0,1,1,1},
+                        {1,1,1,0,1},
+                        {0,0,0,0,1}};
         Queue<int[]> queue = new LinkedList<>();
         queue.add(new int[]{0,0});
         maps[0][0] = -1;
